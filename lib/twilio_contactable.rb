@@ -22,7 +22,7 @@ module TwilioContactable
     end
 
     def confirmation_message(confirmation_code)
-      "Code: #{confirmation_code} Enter code on web to verify phone. Msg&data rates may apply. Freq set by u. T&C & support on web site. Txt HELP for help"
+      "Code: #{confirmation_code}"
     end
 
     def confirmation_code(record, type)
