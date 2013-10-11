@@ -10,6 +10,8 @@ module TwilioContactable
     def internationalize(given_number)
       number = numerize(given_number)
       case number.size
+      when 8
+        "+65#{number}"
       when 10
         "+1#{number}"
       when 11,12
