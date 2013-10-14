@@ -13,8 +13,6 @@ module TwilioContactable
       when 8
         "+65#{number}"
       when 10
-        "+1#{number}"
-      when 11,12
         "+#{number}"
       else
         nil
